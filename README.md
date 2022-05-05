@@ -1,0 +1,1 @@
+Discord Bot for playing worldle game in discord
