@@ -1,4 +1,7 @@
 Country guessing game
 Need list of countries with associated png in folder
 First person to guess wins
-Add this to csv scores file
+Add this to csv scores file -> map user id to name using dictionary
+How far away from and direction to country
+
+Change country names to IDS (people can see name of country when uploaded.)
