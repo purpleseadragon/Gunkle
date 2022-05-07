@@ -5,7 +5,8 @@ from score_update import print_leaderboard, updatecsv
 
 client = discord.Client()
 country_name = 'Invalid'
-names_dict = {237337567534514176: 'Leo', 274757752398544899: 'Liam', 172980261192073217: 'Oscar', 852134374673088533: 'Khy', 358219168757317633: 'Zach'}
+names_dict = {237337567534514176: 'Leo', 274757752398544899: 'Liam', 172980261192073217: 'Oscar', 
+    852134374673088533: 'Khy', 358219168757317633: 'Zach', 745771097957466223: 'Roan', 566438950592315426: 'Sam'}
 
 @client.event
 async def on_ready():
