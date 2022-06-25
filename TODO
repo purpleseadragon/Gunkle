@@ -4,8 +4,12 @@ First person to guess wins
 Add this to csv scores file -> map user id to name using dictionary
 How far away from and direction to country
 
-Change country names to IDS (people can see name of country when uploaded.)
+Change country names to IDs (people can see name of country when uploaded.)
 If change happens add it
 Add learn mode
 add chance to rotate countries
 type in country to output
+
+
+Obfuscate country names plan
+-> 
