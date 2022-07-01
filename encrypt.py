@@ -2,6 +2,7 @@ import os
 import random
 import csv
 
+"""DO NOT RUN CODE UNLESS NEED TO RENAME ENTIRE FOLDER"""
 directory_path_init = r'C:\Users\o_dav\OneDrive\Documents\python_projects\Gunkle\countries'
 directory_path_new = r'C:\Users\o_dav\OneDrive\Documents\python_projects\Gunkle\countries_updated'
 
@@ -40,4 +41,3 @@ with open("country_codes.csv", "w", newline='') as csvfile:
     writer = csv.writer(csvfile)
     for key in countries_dict:
         writer.writerow([key, countries_dict[key]])
-

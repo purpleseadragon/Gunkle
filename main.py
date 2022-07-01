@@ -7,7 +7,8 @@ from score_update import print_leaderboard, updatecsv
 client = discord.Client()
 country_name = 'Invalid'
 names_dict = {237337567534514176: 'Leo', 274757752398544899: 'Liam', 172980261192073217: 'Oscar', 
-    852134374673088533: 'Khy', 358219168757317633: 'Zach', 745771097957466223: 'Roan', 566438950592315426: 'Sam'}
+    852134374673088533: 'Khy', 358219168757317633: 'Zach', 745771097957466223: 'Roan', 566438950592315426: 'Sam',
+    191416450915762176:'Ahmet'}
 
 countries_dict = {"Invalid.png": "Invalid"}
 # reads the country codes file and writes to a dictionary
@@ -50,6 +51,7 @@ async def on_message(message):
         await message.channel.send(f'{print_leaderboard()}')
 
     author_id = message.author.id
+    print(author_id)
 
 
 with open('token') as token:
